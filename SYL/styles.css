@@ -1,0 +1,361 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0vw;
+    margin: 0vw;
+    background-color: rgb(23, 23, 23);
+    color: #f8f9fb;
+    width: 80%;
+    border-radius: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.charade_image img{
+    width: 10vw;
+    height: auto;
+}
+
+img{
+    width: 10vw;
+    height: auto;
+}
+
+.img_hover:hover{
+    transform: scale(1.2);
+}
+
+.index{
+    margin-top: 5%;
+}
+
+.wrong_answer{
+    display: none ;
+}
+
+.bodypage{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.white_bar{
+    width: 0.1vw;
+    height: 50vw;
+    background-color: #d3af1d;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.adress_entry{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 30%;
+}
+
+h4{
+    color: red;
+}
+
+.charade{
+    width: 90%;
+    text-align: center;
+}
+
+.whole_map{
+    width: 100%;
+    height: auto;
+    overflow:hidden;
+}
+
+.header{
+    width: 55vw;
+    height: 38vw;
+    overflow:hidden;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    margin-left: 4vw;
+
+}
+
+.combinaison_entry{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#logo_button{
+    position: relative;
+    top: -115vw; 
+    left: 7.5vw;
+    background-color: transparent;
+    border: none;
+    opacity: 0;
+    margin-left: -4vw
+}
+#logo_button:hover{
+    transform: scale(1.2);
+}
+
+.form_inputs{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0.4vw;
+    font-size: 1vw;
+    font-weight: bold;
+    text-align: center;
+    height: 2vw;
+    width: 2vw;
+    border: solid 0.15vw grey;
+    margin-right: 0.5vw;
+    margin-left : 2vw;
+  }
+
+.big_title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.charade_whole{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.charade_text{
+    height: 20vw;
+    overflow: scroll;
+    padding: 1vw;
+}
+
+h2{
+    font-size: 2vw;
+}
+h3{
+    font-size: 1.5vw;
+}
+.yellow_span{
+    color: #ffd700;
+}
+
+.form_coord{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.periodic_coords{
+    width: 41%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.form_entries{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+.form_unique_entry{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+label{
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: left;
+}
+
+#latitude{
+    border-radius: 0.4vw;
+    height: 1.5vw;
+    width: 8vw;
+    font-size: 1.5vw;
+    text-align: center;
+    border: solid 0.15vw grey;
+}
+
+#longitude{
+    border-radius: 0.4vw;
+    height: 1.5vw;
+    width: 8vw;
+    font-size: 1.5vw;
+    text-align: center;
+    border: solid 0.15vw grey;
+}
+
+.entry{
+    border-radius: 0.4vw;
+    font-size: 1.5vw;
+    text-align: center;
+    height: 1.5vw;
+    width: 5vw;
+    border: solid 0.15vw grey;
+    margin: 0.5vw;
+}
+
+.button{
+    background-color: #d3af1d;
+    border: solid 0.15vw #d3af1d;
+    color: #f8f9fb;
+    padding: 0.4vw 1.5vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    border-radius: 0.5vw;
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.button:hover{
+    transform: scale(1.2);
+}
+
+.all_buttons{
+    background-color: grey;
+    padding: 2vw;
+    border-radius: 0.5vw;
+}
+
+.three_buttons{
+    margin-bottom: 0.5vw;
+}
+
+.button_digic{
+    border-radius: 2vw;
+    padding: 0.6vw 1vw;
+}
+
+.statusbar{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+    align-items: center; 
+    margin-bottom: 1.5vw;
+}
+
+.status{
+    border: 0.2vw solid white;
+    border-radius: 1vw;
+    height: 1vw;
+    width: 1vw;
+}
+
+.wrong_digicode_button{
+    background-color: red;
+}
+
+.correct_digicode_button{
+    background-color: green;
+}
+
+.status_on{
+    border: 0.2vw solid #ffd700;
+    border-radius: 1vw;
+    height: 1vw;
+    width: 1vw;
+    background-color: #ffd700;
+}
+
+.hidden_at_first{
+    display: none;
+}
+
+@media screen and (max-width: 1000px){
+    .bodypage{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .white_bar{
+        height: 0.1vw;
+        width: 500vw;
+        background-color: #d3af1d;
+        margin-left: 0px;
+    }
+
+    .header{
+        width: 55vw;
+        height: 38vw;
+        overflow:hidden;
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+        margin-left: 24vw;
+    
+    }
+
+    #logo_button{
+        position: relative;
+        top: 23vw; 
+        left: 39.5vw;
+        background-color: transparent;
+        border: none;
+        opacity: 0;
+        margin-left: -4vw
+    }
+
+    .adress_entry{
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+    }
+
+    #logo_button{
+        position: relative;
+        top: -115vw; 
+        left: 7.5vw;
+        background-color: transparent;
+        border: none;
+        opacity: 0;
+        margin-left: -4vw
+    }
+
+    .charade_text{
+        height: 20vw;
+        padding: 0vw 10vw;
+        overflow:visible;
+        margin-bottom: 10vw;
+    }
+
+    .charade{
+        margin-left: 5vw;
+    }
+}

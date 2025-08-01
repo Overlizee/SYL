@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+	<head>
+		<title>&lt;3</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Batman">
+		<link rel="stylesheet" href="styles.css" />
+        <script src="functions.js"></script>
+	</head>
+
+
+	<body>
+
+		<div class="index">
+    
+            <div class="combinaison_entry">
+                <div class="big_title">
+                    <h2>On continue <span class="yellow_span">simplement</span> : la date de naissance de la seule personne qui n'est pas sourde parmi nous 3<br><br>
+                        Il faut cliquer sur les huits chiffres dans l'ordre. <br>
+                        Par exemple : 01022001 si c'est le 1 Février 2001 <br>
+                        En cas d'erreur, ça repart de 0...
+                    </h2>
+                </div>
+                <div class="all_buttons">
+                    <div class="statusbar">
+                        <div class="status_on" id="status1"></div>
+                        <div class="status_on" id="status2"></div>
+                        <div class="status_on" id="status3"></div>
+                        <div class="status_on" id="status4"></div>
+                        <div class="status_on" id="status5"></div>
+                        <div class="status_on" id="status6"></div>
+                        <div class="status" id="status7"></div>
+                        <div class="status" id="status8"></div>
+                    </div>
+                    <div class="three_buttons">
+                        <button id="button1" class="button_digic" type="button" onclick="wrong_answer('button1')">2</button>
+                        <button id="button2" class="button_digic" type="button" onclick="wrong_answer('button2')">5</button>
+                        <button id="button3" class="button_digic" type="button" onclick="wrong_answer('button3')">4</button>
+                    </div>
+                    <div class="three_buttons">
+                        <button id="button4" class="button_digic" type="button" onclick="correct_answer7('button4')">8</button>
+                        <button id="button5" class="button_digic" type="button" onclick="wrong_answer('button5')">0</button>
+                        <button id="button6" class="button_digic" type="button" onclick="wrong_answer('button6')">1</button>
+                    </div>
+                    <div class="three_buttons">
+                        <button id="button7" class="button_digic" type="button" onclick="wrong_answer('button7')">7</button>
+                        <button id="button8" class="button_digic" type="button" onclick="wrong_answer('button8')">9</button>
+                        <button id="button0" class="button_digic" type="button" onclick="wrong_answer('button0')">3</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>

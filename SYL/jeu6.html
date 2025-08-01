@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+	<head>
+		<title>&lt;3</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Batman">
+		<link rel="stylesheet" href="styles.css" />
+        <script src="functions.js"></script>
+	</head>
+
+
+	<body>
+
+		<div class="index">
+    
+            <div class="combinaison_entry">
+                <div class="big_title">
+                    <h2>Alors trouvez-le cet animal ! <br> Essayez de le trouver avec le moins d'indice possible.</h2>
+                    <h2>Retrouvez l'animal avec ces <span class="yellow_span">mots</span> : </h2>
+                    <h2><span class="yellow_span">4 pattes</span> - <span class="yellow_span">mammifère</span></h2>
+                    <form method="GET" class="form_coord">
+                        <div class="form_entries">
+                            <div class="form_unique_entry">
+                                <div class="form_inputs">
+                                    <input type="latitude" id="latitude" name="latitude" required>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="button" class="button" value="Lancer la recherche" onclick="checkCode()">
+                    </form>
+                    <div id="wrong_answer" class="wrong_answer">
+                        <h4>Ceci n'est pas la bonne combinaison</h4>
+                    </div>
+
+                    <a href="jeu62.html" class="button">Un 3e indice</a>
+            </div>
+
+        </div>
+    </body>
+</html>
